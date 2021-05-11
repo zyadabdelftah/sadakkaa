@@ -1,0 +1,143 @@
+<html dir="rtl">
+    <head>   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+  <!-- Required meta tags -->
+  <meta charset="utf-8"> <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+        <link rel="stylesheet" href="style.css">
+
+        <style>button{
+            height: 60;
+        }
+        </style>
+</style>
+        <title>المرام والرضاب</title>
+    </head>
+    <body>
+        <div class="banner">
+
+<div class="navbar">
+    <h2 class="logo"> ام احمــــــد  </h2>
+    <input type="checkbox" id="chk">
+    <label for="chk" class="show">
+
+        <i class="fas fa-ellipsis-h"></i>
+
+    </label>
+<ul class="menu">
+    <li>
+        <a href="item2.html">
+        القــران الكريــم</li></a>
+    <li>
+        <a href ="#hom">
+      احاديث</li>
+        </a>
+
+     <a href ="item4.html" title="اركان الاسلام"> <li>اركان الاسلام</li></a>
+
+ <li><a href="item5.htm">عن الموقع</a></li>
+     <label for="chk" class="hide">
+        <i class="fas fa-times"></i>
+
+
+    </label>
+</ul></div>
+
+ </div>
+        </div>
+<div class="hero">
+<div class="contact">
+  <br><br>
+ <audio src="n1.mp3" controls loop autoplay></audio>
+ <br>
+      <br><br>
+   <button class="cc">
+       <span>
+        <a href="index2.html">
+
+ القــران الكريــم
+        </a>    </span> </button>
+</div></div>
+<div class="hom" id="hom">
+ 
+<h2 class="w3-center">احاديث شريـــــفه</h2>
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="p6.jpg" style="width:100%" height="400px" >
+  <img class="mySlides" src="p2.jpg" style="width:100%"height="400px" >
+
+  <img class="mySlides" src="p3.jpg" style="width:100%" height="400px" >
+  <img class="mySlides" src="p3.jpg" style="width:100%" height="400px" >
+  <img class="mySlides" src="p4.jpg" style="width:100%" height="400px" >
+  <img class="mySlides" src="p5.jpg" style="width:100%" height="400px" >
+  <img class="mySlides" src="p1.jpg" style="width:100%" height="400px" > 
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+</div>
+</div><center>
+<div class="title">اتصل بنا </div>
+
+</center>
+<div class="container">
+    <form action="/action_page.php">
+      <label for="fname">الاسم الاول</label>
+      <input type="text" id="fname" name="firstname" placeholder="اسمك الاول..">
+  
+      <label for="lname">الاسم الاخير</label>
+      <input type="text" id="lname" name="lastname" placeholder="اسمك الاخير..">
+  
+      <label for="country">الدوله</label>
+      <select id="country" name="country">
+        <option value="australia">مصر</option>
+        <option value="canada">سوريا</option>
+        <option value="usa">دوله اخري</option>
+      </select>
+  
+      <label for="subject">الرساله</label>
+      <textarea id="subject" name="subject" placeholder="اكنب الرساله.." style="height:200px"></textarea>
+  
+      <input type="submit" value="ارسل">
+    </form>
+</div>
+
+
+
+
+
+
+<div class="footer">
+ 
+  جميع الحقوق محفوظه 
+ <a href="https://digital4web.netlify.app/">
+  digitalweb 
+ </a>
+</div>
+
+ <script>
+
+
+      
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+ </script>
+
+</body>
+</html>
